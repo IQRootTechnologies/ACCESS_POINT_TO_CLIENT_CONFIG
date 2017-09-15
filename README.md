@@ -34,6 +34,10 @@ After you complete the intial setup, you'll be able to administer these services
 
 # Create a file called dhcpcd.config and save it on your Desktop {where in the static part in the dhcpcd.conf is commented}
 
+# Also add the following script in /etc/suders 
+
+# ----> Script to be added ==> www-data ALL=(ALL) NOPASSWD:/bin/cp /tmp/dhcpddata /etc/dnsmasq.conf
+
 Install RaspAP from your RaspberryPi's shell prompt:
 ```sh
 $ wget -q https://git.io/voEUQ -O /tmp/raspap && bash /tmp/raspap
