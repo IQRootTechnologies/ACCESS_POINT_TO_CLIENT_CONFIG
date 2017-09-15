@@ -31,11 +31,16 @@ To configure your RPi as a WiFi router, either of these resources will start you
 After you complete the intial setup, you'll be able to administer these services using the web UI.
 
 ## Quick installer
+
+# Create a file called dhcpcd.config and save it on your Desktop {where in the static part is commented}
+
 Install RaspAP from your RaspberryPi's shell prompt:
 ```sh
 $ wget -q https://git.io/voEUQ -O /tmp/raspap && bash /tmp/raspap
 ```
 The installer will complete the steps in the manual installation (below) for you.
+
+
 
 After the reboot at the end of the installation the wireless network will be
 configured as an access point as follows:
