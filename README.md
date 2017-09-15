@@ -32,7 +32,7 @@ After you complete the intial setup, you'll be able to administer these services
 
 ## Quick installer
 
-# Create a file called dhcpcd.config and save it on your Desktop {where in the static part is commented}
+# Create a file called dhcpcd.config and save it on your Desktop {where in the static part in the dhcpcd.conf is commented}
 
 Install RaspAP from your RaspberryPi's shell prompt:
 ```sh
